@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import DataFetching from "./components/dataFetchingByUsingId";
+import DataFetchingUseEffect from "./components/dataFetchingUseEffect";
+import HookUseEffect from "./components/hookUseEffect";
+import HookUseEffectTwo from "./components/hookUseEffectTwo";
+import LifeCycle from "./components/lifeCycle";
+import LifeCycleThree from "./components/lifeCycleThree";
+import LifeCycleTwo from "./components/lifeCycleTwo";
+import SetStateWithArray from "./components/setStateWithArray";
+import SetStateWithObject from "./components/setStateWithObject";
+import UseState from "./components/useState";
+import HookUseEffectThree from "./hookUseEffectThree";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <UseState></UseState> */}
+      {/* <SetStateWithObject /> */}
+      {/* <SetStateWithArray /> */}
+      {/* <LifeCycle /> */}
+      {/* <HookUseEffect /> */}
+      {/* <LifeCycleTwo /> */}
+      {/* <HookUseEffectTwo /> */}
+      {/* <LifeCycleThree /> */}
+      {/* <HookUseEffectThree /> */}
+      {/* <DataFetchingUseEffect /> */}
+      <DataFetching />
     </div>
   );
 }
